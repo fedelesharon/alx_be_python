@@ -1,6 +1,6 @@
 # Define global conversion factors
-FAHRENHEIT_TO_CELSIUS_FACTOR = 5 / 9
-CELSIUS_TO_FAHRENHEIT_FACTOR = 9 / 5
+FAHRENHEIT_TO_CELSIUS_FACTOR = 5/9  # Ensure no spaces
+CELSIUS_TO_FAHRENHEIT_FACTOR = 9/5  # Ensure no spaces
 
 def convert_to_celsius(fahrenheit):
     """Convert Fahrenheit to Celsius."""
@@ -32,3 +32,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
